@@ -12,4 +12,9 @@ public class WelcomeController {
 	{
 		return Map.of("message","A Hearty Welcome To Docker World");
 	}
+	@GetMapping("/goodday")
+	public Map<String, String> goodday()
+	{
+		return Map.of("message","Have A Good Day");
+	}
 }
